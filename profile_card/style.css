@@ -17,12 +17,11 @@ body {
     background-color: #fff;
 }
 
-.proflie img {
+.profile img {
     position: absolute;
     z-index: 1;
-    width: 100px;
-    margin: 25px 0 0 125px;
-    opacity: 0.7;
+    width: 150px;
+    margin: 25px 0 0 100px;
 }
 
 .info {

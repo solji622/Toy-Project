@@ -4,17 +4,73 @@
 }
 
 body {
-    background-color: #EEF5FF;
+    background-color: #ffe3e4;
 }
 
 
 .container {
     width: 350px;
-    height: 500px;
+    height: 550px;
     border-radius: 40px;
     box-shadow: 0 5px 30px lightgray;
     margin: 170px auto 0 auto;
     background-color: #fff;
+}
+
+.proflie img {
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    margin: 25px 0 0 125px;
+    opacity: 0.7;
+}
+
+.info {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.info h2 {
+    letter-spacing: 3px
+}
+
+.info p {
+    font-size: 10pt;
+}
+
+.sns {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 15pt;
+}
+
+.btn_wrap {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.btn_wrap button {
+    margin: 5px;
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: #fff;
+}
+
+#follow {
+    background-color: #e32560;
+    color: #fff;
+}
+
+#msg {
+    color: gray;
+}
+
+.desc {
+    margin: 40px 0 20px 0;
+    text-align: center;
 }
 
 .wrap {
@@ -35,21 +91,22 @@ body {
 }
 
 .wave1 {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23e32560" fill-opacity="0.8" d="M0,224L80,208C160,192,320,160,480,149.3C640,139,800,149,960,176C1120,203,1280,245,1360,266.7L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 640"><path fill="%23e32560" fill-opacity="0.8" d="M0,448L80,416C160,384,320,320,480,298.6C640,277,800,298,960,352C1120,405,1280,490,1360,533.3L1440,576L1440,640L1360,640C1280,640,1120,640,960,640C800,640,640,640,480,640C320,640,160,640,80,640L0,640Z" transform="scale(1,-1) translate(0,-640)"></path></svg>');
     animation: wave-animation 10s infinite linear;
 }
 
 .wave2 {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23e32560" fill-opacity="0.5" d="M0,288L48,272C96,256,192,224,288,202.7C384,181,480,171,576,165.3C672,160,768,160,864,170.7C960,181,1056,203,1152,213.3C1248,224,1344,224,1392,224L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 640"><path fill="%23e32560" fill-opacity="0.5" d="M0,576L48,544C96,512,192,448,288,405.4C384,363,480,341,576,330.7C672,320,768,320,864,341.3C960,363,1056,405,1152,426.7C1248,448,1344,448,1392,448L1440,448L1440,640L1392,640C1344,640,1248,640,1152,640C1056,640,960,640,864,640C768,640,672,640,576,640C480,640,384,640,288,640C192,640,96,640,48,640L0,640Z" transform="scale(1,-1) translate(0,-640)"></path></svg>');
     animation: wave-animation 15s infinite linear;
     opacity: 0.8;
 }
 
 .wave3 {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23e32560" fill-opacity="0.3" d="M0,160L40,186.7C80,213,160,267,240,277.3C320,288,400,256,480,218.7C560,181,640,139,720,149.3C800,160,880,224,960,224C1040,224,1120,160,1200,122.7C1280,85,1360,75,1400,69.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>');
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 640"><path fill="%23e32560" fill-opacity="0.3" d="M0,320L40,373.4C80,427,160,534,240,554.7C320,576,400,512,480,437.4C560,363,640,278,720,298.6C800,320,880,448,960,448C1040,448,1120,320,1200,245.4C1280,171,1360,149,1400,138.7L1440,128L1440,640L1400,640C1360,640,1280,640,1200,640C1120,640,1040,640,960,640C880,640,800,640,720,640C640,640,560,640,480,640C400,640,320,640,240,640C160,640,80,640,40,640L0,640Z" transform="scale(1,-1) translate(0,-640)"></path></svg>');
     animation: wave-animation 20s infinite linear;
     opacity: 0.6;
 }
+
 
 @keyframes wave-animation {
     0% {
@@ -57,6 +114,6 @@ body {
     }
 
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-40%);
     }
 }

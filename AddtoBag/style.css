@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Patua+One&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.select_item img {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    border: 3px solid dodgerblue;
+    border-radius: 20px;
+    display: block;
+    margin: 20px;
+}
+
+.item-off {
+    opacity: 0.5;
+    border: none;
+}
+
+.main_img img {
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.text_wrap {
+    font-family: "Patua One", serif;
+}
+
+.shop {
+    color: dodgerblue;
+    font-size: 15pt;
+}
+
+.title {
+    font-size: 30pt;
+}
+
+.desc {
+    color: gray;
+    font-family: "Merriweather", serif;
+}
+
+.price_wrap {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+
+.before {
+    color: gray;
+}
+
+.size_wrap {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+
+.size_wrap ul li {
+    display: inline-block;
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+}
+
+.size_wrap ul li:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.btn button {
+    font-family: "Merriweather", serif;
+    font-size: 15px;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    border: none;
+    background-color: dodgerblue;
+}

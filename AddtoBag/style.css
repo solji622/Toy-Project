@@ -7,25 +7,26 @@
     margin: 0;
 }
 
-.select_item img {
+.select_item .item {
     width: 100px;
     height: 100px;
-    opacity: 1;
-    border: 3px solid dodgerblue;
-    border-radius: 20px;
+    opacity: 0.5;
+    border: none;
     display: block;
     margin: 20px;
 }
 
-.item-off {
-    opacity: 0.5;
-    border: none;
+.item.on {
+    opacity: 1;
+    border: 3px solid dodgerblue;
+    border-radius: 20px;
 }
 
 .main_img img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     float: left;
+    margin-left: 150px;
 }
 
 .text_wrap {
@@ -44,11 +45,13 @@
 .desc {
     color: gray;
     font-family: "Merriweather", serif;
+    margin: 10px;
 }
 
 .price_wrap {
     font-family: "Merriweather", serif;
     font-weight: bold;
+    margin: 10px;
 }
 
 .before {

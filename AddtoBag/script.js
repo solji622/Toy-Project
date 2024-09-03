@@ -1,5 +1,6 @@
 var mainImg = document.querySelector("#main")
 var itemImg = document.querySelectorAll(".item")
+var chooseSize = document.querySelectorAll("#size");
 
 if (itemImg.length > 0) {
     mainImg.setAttribute("src", itemImg[0].getAttribute("src"))
@@ -17,6 +18,18 @@ function changeImg() {
 
     itemImg.forEach(item => {
         item.classList.remove('on')
+    })
+
+    this.classList.add('on')
+}
+
+for (var i = 0; i < chooseSize.length; i++) {
+    chooseSize[i].addEventListener("click", changeSize);
+}
+
+function changeSize() {
+    chooseSize.forEach(size => {
+        size.classList.remove('on')
     })
 
     this.classList.add('on')

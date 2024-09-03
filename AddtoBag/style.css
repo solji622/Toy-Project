@@ -7,13 +7,27 @@
     margin: 0;
 }
 
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin-left: 90px;
+}
+
+.select_item {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
 .select_item .item {
     width: 100px;
     height: 100px;
     opacity: 0.5;
     border: none;
-    display: block;
-    margin: 20px;
+    margin: 10px;
 }
 
 .item.on {
@@ -26,11 +40,11 @@
     width: 400px;
     height: 400px;
     float: left;
-    margin-left: 150px;
 }
 
 .text_wrap {
     font-family: "Patua One", serif;
+    flex-direction: column;
 }
 
 .shop {
@@ -52,15 +66,39 @@
     font-family: "Merriweather", serif;
     font-weight: bold;
     margin: 10px;
+    display: flex;
+}
+
+.price {
+    font-size: 27pt;
+    margin: 10px 0;
+}
+
+.discount {
+    background-color: lightskyblue;
+    color: dodgerblue;
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin: 20px 0 50px 10px;
 }
 
 .before {
     color: gray;
+    font-size: 13pt;
+    position: absolute;
+    margin-top: 60px;
 }
 
 .size_wrap {
     font-family: "Merriweather", serif;
     font-weight: bold;
+}
+
+.size_wrap ul {
+    margin-bottom: 30px;
 }
 
 .size_wrap ul li {
@@ -70,17 +108,21 @@
     text-align: center;
 }
 
-.size_wrap ul li:hover {
+#size.on {
     background-color: black;
     color: #fff;
+}
+
+.choose {
+    margin: 20px;
 }
 
 .btn button {
     font-family: "Merriweather", serif;
     font-size: 15px;
-    width: 400px;
-    height: 30px;
-    line-height: 30px;
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
     color: #fff;
     border: none;
     background-color: dodgerblue;

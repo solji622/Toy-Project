@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 100px auto 0 auto;
+    width: 300px;
+    height: 600px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px lightgray;
+}
+
+.profile img {
+    width: 100px;
+}

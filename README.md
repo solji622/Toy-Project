@@ -1,6 +1,6 @@
 ### 100 FREE Frontend Challenges
 <a href="https://dev.to/bigsondev/100-free-frontend-challenges-3f0?ref=dailydev" target="_blank">
-    <button>To Go Site</button>
+    <button>Go To Site</button>
 </a>
 
 <br> 
